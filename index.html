@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Capital Raíz Cuba</title>
   <style>
     body {
@@ -38,8 +38,9 @@
       border-radius: 8px;
     }
     .property-card img {
-      max-width: 100%;
+      width: 100%;
       border-radius: 4px;
+      margin-bottom: 0.5em;
     }
     footer {
       background-color: #005b4f;
@@ -50,6 +51,10 @@
       bottom: 0;
       width: 100%;
     }
+    .banner {
+      width: 100%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
@@ -58,9 +63,12 @@
     <p>Conectamos personas con hogares reales en toda Cuba</p>
   </header>
 
+  <img src="banner.png" alt="Banner Capital Raíz Cuba" class="banner"/>
+
   <nav>
     <a href="#inicio">Inicio</a>
     <a href="#propiedades">Propiedades</a>
+    <a href="#pagos">Pagos</a>
     <a href="#nosotros">Nosotros</a>
     <a href="#contacto">Contacto</a>
   </nav>
@@ -74,19 +82,32 @@
     <h2>Propiedades en Venta</h2>
 
     <div class="property-card">
-      <img src="https://via.placeholder.com/400x250" alt="Casa en La Habana">
       <h3>Casa en La Habana</h3>
+      <img src="https://via.placeholder.com/400x250?text=Casa+1-1" alt="Foto 1">
+      <img src="https://via.placeholder.com/400x250?text=Casa+1-2" alt="Foto 2">
+      <img src="https://via.placeholder.com/400x250?text=Casa+1-3" alt="Foto 3">
       <p>Precio: $25,000 USD</p>
       <p>Casa independiente de 3 habitaciones y 2 baños en el Vedado. Lista para habitar.</p>
     </div>
 
     <div class="property-card">
-      <img src="https://via.placeholder.com/400x250" alt="Apartamento en Santiago de Cuba">
       <h3>Apartamento en Santiago de Cuba</h3>
+      <img src="https://via.placeholder.com/400x250?text=Apartamento+2-1" alt="Foto 1">
+      <img src="https://via.placeholder.com/400x250?text=Apartamento+2-2" alt="Foto 2">
+      <img src="https://via.placeholder.com/400x250?text=Apartamento+2-3" alt="Foto 3">
       <p>Precio: $18,000 USD</p>
       <p>Apartamento moderno de 2 habitaciones cerca del centro histórico. Buena ventilación.</p>
     </div>
+  </div>
 
+  <div class="container" id="pagos">
+    <h2>Opciones y Métodos de Pago</h2>
+    <ul>
+      <li>Transferencia bancaria nacional e internacional</li>
+      <li>Pago en efectivo en CUP o divisas</li>
+      <li>Zelle o Western Union</li>
+      <li>Transferencias desde cuentas en MLC dentro de Cuba</li>
+    </ul>
   </div>
 
   <div class="container" id="nosotros">
